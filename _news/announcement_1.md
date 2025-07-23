@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-02-01 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+KOAP is accpted to ICRA 2025!
