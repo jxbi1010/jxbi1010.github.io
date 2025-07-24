@@ -28,6 +28,6 @@ I am a Ph.D. candidate at the Dept. of Computer Science, NUS. I am advised by Pr
 Previously, I obtained my bachelor degree from EEE, NTU.
 
 My current reasrch focus on data-efficient imitation learning methods for robot manipulation, e.g. learning action from visual demostration and improve VLA models for contact-rich tasks with tactile feedback.
-Previsouly, I have also worked on constrained reinforcement learning for fair allocation and policy transfer.
+I have also worked on constrained reinforcement learning for fair allocation and policy transfer.
 
 In the long run, I aim to build adaptive, reactive and self-explorable robot systems that can work effectively and collaborate seamlessly with humans in daily life scenarios.
