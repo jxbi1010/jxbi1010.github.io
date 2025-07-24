@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-KOAP is accpted to ICRA 2025!
+[KOAP](https://arxiv.org/abs/2410.07584) is accpted to ICRA 2025!
