@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: CS Ph.D. Candidate at <a href='https://www.nus.edu.sg/'>National University of Singapore</a>.
 
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate at the Dept. of Computer Science, NUS. I am advised by Prof. [Harold Soh](https://haroldsoh.com/) who leads the [CLeAR](https://clear-nus.github.io/) lab.
+I am Ph.D. candidate at NUS, advised by Prof. [Harold Soh](https://haroldsoh.com/) who leads the [CLeAR](https://clear-nus.github.io/) lab.
 Previously, I obtained my bachelor degree from EEE, NTU.
 
 My current reasrch focus on data-efficient imitation learning methods for robot manipulation, e.g. learning action from visual demostration and improve VLA models for contact-rich tasks with tactile feedback.
