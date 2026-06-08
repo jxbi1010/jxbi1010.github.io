@@ -4,13 +4,13 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -41,8 +41,8 @@ ninja.data = [{
       },{id: "news-koap-is-accpted-to-icra-2025",
           title: 'KOAP is accpted to ICRA 2025!',
           description: "",
-          section: "News",},{id: "news-vla-touch-is-now-avaiable-on-arxiv",
-          title: 'VLA-Touch is now avaiable on arxiv!',
+          section: "News",},{id: "news-vla-touch-is-accepted-to-ra-l",
+          title: 'VLA-Touch is accepted to RA-L!',
           description: "",
           section: "News",},{
         id: 'social-email',
