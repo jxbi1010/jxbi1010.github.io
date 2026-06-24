@@ -31,3 +31,14 @@ My current reasrch focus on data-efficient imitation learning methods for robot 
 I have also worked on constrained reinforcement learning for fair allocation and policy transfer.
 
 In the long run, I aim to build adaptive, reactive and self-explorable robot systems that can work effectively and collaborate seamlessly with humans in daily life scenarios.
+
+<p style="font-family: 'Caveat', cursive; font-size: 1.7rem; line-height: 1.3; margin-top: 1.5rem;">
+  Feel free to reach out —
+  <img class="email-img email-light" src="{{ '/assets/img/email-light.png' | relative_url }}" alt="jxbi1010 [at] gmail [dot] com" style="height: 1.15em; vertical-align: -0.22em;">
+  <img class="email-img email-dark" src="{{ '/assets/img/email-dark.png' | relative_url }}" alt="jxbi1010 [at] gmail [dot] com" style="height: 1.15em; vertical-align: -0.22em;">
+</p>
+<style>
+  .email-dark { display: none; }
+  html[data-theme="dark"] .email-light { display: none; }
+  html[data-theme="dark"] .email-dark { display: inline; }
+</style>
