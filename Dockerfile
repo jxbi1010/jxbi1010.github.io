@@ -19,19 +19,25 @@ LABEL authors="Amir Pourmand,George Araújo" \
 # RUN groupadd -r $GROUPNAME -g $GROUPID && \
 #     useradd -u $USERID -m -g $GROUPNAME $USERNAME
 
-# install system dependencies
-RUN apt-get update -y && \
-    apt-get install -y --no-install-recommends \
-        build-essential \
-        curl \
-        git \
-        imagemagick \
-        inotify-tools \
-        locales \
-        nodejs \
-        procps \
-        python3-pip \
-        zlib1g-dev && \
+# make apt resilient to flaky mirrors (retry failed downloads instead of aborting)
+RUN printf 'Acquire::Retries "10";\nAcquire::http::Timeout "60";\nAcquire::https::Timeout "60";\n' > /etc/apt/apt.conf.d/80-retries
+
+# install system dependencies (retry the whole step a few times for transient mirror errors)
+RUN for i in 1 2 3 4 5; do \
+        apt-get update -y && \
+        apt-get install -y --no-install-recommends \
+            build-essential \
+            curl \
+            git \
+            imagemagick \
+            inotify-tools \
+            locales \
+            nodejs \
+            procps \
+            python3-pip \
+            zlib1g-dev && break || \
+        { echo "apt attempt $i failed, retrying in 15s..."; sleep 15; }; \
+    done && \
     pip --no-cache-dir install --upgrade --break-system-packages nbconvert
 
 # clean up
