@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[VLA-Touch](https://arxiv.org/abs/2507.17294) is accepted to RA-L!
+[VLA-Touch](https://jxbi1010.github.io/vla-touch-gh-pages/) is accepted to RA-L!
