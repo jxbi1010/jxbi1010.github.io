@@ -1424,7 +1424,11 @@ figure.cover {
 
 .award-row {
   margin: 0.35rem 0 0.5rem;
-  line-height: 1;
+
+  // expanded award text sits directly beneath the badge
+  div.award.hidden {
+    margin-top: 0.4rem;
+  }
 }
 
 a.award.award-badge {
