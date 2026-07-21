@@ -1417,3 +1417,57 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/*******************************************************************************
+ * Publication award badge (own row, above the link buttons)
+ ******************************************************************************/
+
+.award-row {
+  margin: 0.35rem 0 0.5rem;
+  line-height: 1;
+}
+
+a.award.award-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.28rem 0.7rem;
+  border: 1px solid rgba(214, 158, 46, 0.45) !important;
+  border-radius: 999px;
+  background-color: rgba(214, 158, 46, 0.12);
+  color: #b7791f !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  i {
+    font-size: 0.8rem;
+    color: #d69e2e;
+  }
+
+  &:hover {
+    background-color: rgba(214, 158, 46, 0.22);
+    border-color: rgba(214, 158, 46, 0.7) !important;
+    color: #975a16 !important;
+  }
+}
+
+html[data-theme="dark"] {
+  a.award.award-badge {
+    background-color: rgba(236, 201, 75, 0.14);
+    border-color: rgba(236, 201, 75, 0.4) !important;
+    color: #ecc94b !important;
+
+    i {
+      color: #ecc94b;
+    }
+
+    &:hover {
+      background-color: rgba(236, 201, 75, 0.24);
+      color: #f6e05e !important;
+    }
+  }
+}

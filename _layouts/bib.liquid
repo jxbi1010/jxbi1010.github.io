@@ -185,13 +185,18 @@
       {{ entry.note | strip }}
     </div>
 
-    <!-- Links/Buttons -->
-    <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
+    <!-- Award (own row) -->
+    {% if entry.award %}
+      <div class="award-row">
+        <a class="award award-badge" role="button">
+          <i class="fa-solid fa-trophy"></i>
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
-      {% endif %}
+      </div>
+    {% endif %}
+
+    <!-- Links/Buttons -->
+    <div class="links">
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
