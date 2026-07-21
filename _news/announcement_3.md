@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Heterogeneous Tactile Transformer](https://jxbi1010.github.io/htt-gh-page/) receives the Best Paper Runner-Up Award at the RSS 2026 Workshop on Tactile for FM!
+[HTT](https://jxbi1010.github.io/htt-gh-page/) receives the Best Paper Runner-Up Award at the [RSS 2026 Workshop on Tactile for FM](https://tac-for-fm.github.io/rss2026/)!
