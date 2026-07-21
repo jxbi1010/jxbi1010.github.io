@@ -44,8 +44,8 @@ ninja.data = [{
           section: "News",},{id: "news-vla-touch-is-accepted-to-ra-l",
           title: 'VLA-Touch is accepted to RA-L!',
           description: "",
-          section: "News",},{id: "news-heterogeneous-tactile-transformer-will-be-presented-at-rss-2026-workshop-on-tactile-for-fm",
-          title: 'Heterogeneous Tactile Transformer will be presented at RSS 2026 Workshop on Tactile for...',
+          section: "News",},{id: "news-htt-receives-the-best-paper-runner-up-award-at-the-rss-2026-workshop-on-tactile-for-fm",
+          title: 'HTT receives the Best Paper Runner-Up Award at the RSS 2026 Workshop on...',
           description: "",
           section: "News",},{
         id: 'social-email',
