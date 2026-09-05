@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-htt-receives-the-best-paper-runner-up-award-at-the-rss-2026-workshop-on-tactile-for-fm",
           title: 'HTT receives the Best Paper Runner-Up Award at the RSS 2026 Workshop on...',
           description: "",
+          section: "News",},{id: "news-htt-is-accepted-to-corl-2026",
+          title: 'HTT is accepted to CoRL 2026!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
